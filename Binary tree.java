@@ -1,5 +1,17 @@
 import java.util.*;
 import java.io.*;
+public class node
+{
+	 int data;
+	 node left;
+	 node right;
+	  node(int data)
+	  {
+		  this.data= data;
+		  left=right=null;
+	  }
+}
+
 public class QueueNode {
 	nodeq front;
 	nodeq rear;
